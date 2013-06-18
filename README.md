@@ -19,11 +19,11 @@ Get your Google Maps API key and require the Google Maps JS library:
 
 Create a div where you want to render the map in, e.g:
 ```html
-<div id="map-canvas" style="width:50%;height:264px;"/>
+<div id="map-canvas" style="width:50%;height:264px;"></div>
 ```
 You can set your own div id so assuming you created:
 ```html
-<div id="my-map" style="width:50%;height:264px;"/>
+<div id="my-map" style="width:50%;height:264px;"></div>
 ```
 then you can tell the library about that map container with:
 ```javascript
