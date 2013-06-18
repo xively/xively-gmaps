@@ -1,5 +1,5 @@
 // xively-gmaps
-// version 0.0.1
+// version 0.1.0
 // (c) 2013 Xively Ltd, a LogMeIn company [baself@gmail.com]
 // http://xively.github.com/xively-gmaps/
 // released under the MIT license
