@@ -8,7 +8,7 @@ require jquery and xivleyjs libraries:
 ```html
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.1/jquery.min.js"></script>
 <script src="//d23cj0cdvyoxg0.cloudfront.net/xivelyjs-1.0.4.min.js"></script>
-<script src="//d23cj0cdvyoxg0.cloudfront.net/xivelygmaps-0.1.0.min.js"></script>
+<script src="//d23cj0cdvyoxg0.cloudfront.net/xivelygmaps-0.1.1.min.js"></script>
 ```
 Get your Google Maps API key and require the Google Maps JS library:
 ```html
