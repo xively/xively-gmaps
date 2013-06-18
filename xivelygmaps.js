@@ -9,7 +9,7 @@ var xivelyGmaps = (function ($) {
 
   var methods,
       APIendpoint = "https://api.xively.com/v2/",
-      WSendpoint = "ws://api.xively.com:8080/",
+      WSendpoint = "wss://api.xively.com:8080/",
       previousLocation,
       map,
       marker,
