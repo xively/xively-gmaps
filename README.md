@@ -12,7 +12,7 @@ require jquery and xivleyjs libraries:
 ```
 Get your Google Maps API key and require the Google Maps JS library:
 ```html
-<script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key={GOOGLE_API_KEY}sensor=false"></script>
+<script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key={GOOGLE_API_KEY}&sensor=false"></script>
 ```
 
 ## How to use
@@ -21,7 +21,7 @@ Create a div where you want to render the map in, e.g:
 ```html
 <div id="map-canvas" style="width:50%;height:264px;"/>
 ```
-You can set your owen div id so assuming you created:
+You can set your own div id so assuming you created:
 ```html
 <div id="my-map" style="width:50%;height:264px;"/>
 ```
