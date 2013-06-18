@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Xively Gmaps Example</title>
+  <meta name="description" content="Xively Gmaps Example">
+  <meta name="author" content="Xively Ltd.">
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.1/jquery.min.js"></script>
+  <script src="http://d23cj0cdvyoxg0.cloudfront.net/xivelyjs-1.0.4.min.js"></script>
+  <script src="http://d23cj0cdvyoxg0.cloudfront.net/xivelygmaps-0.1.0.min.js"></script>
+  <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+</head>
+<body>
+  <div id="map-canvas" style="width:50%;height:264px;"></div>
+  <p>The location follows a roughly sinusoidal orbit every 92 minutes reaching 51.6 deg. north latitude and -51.6 deg. south latitude.</p>
+  <script type="text/javascript">
+    xivelyGmaps.setKey("FI4JxHBTbwJHiEIoVPRMB4vd2Vv0fvuzrKCI4fah2qqW792b");
+    google.maps.event.addDomListener(window, 'load', xivelyGmaps.subscribe("61916"));
+  </script>
+</body>
+</html>
+
+
