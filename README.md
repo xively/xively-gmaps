@@ -10,8 +10,6 @@ require jquery and xivleyjs libraries:
 <script src="//d23cj0cdvyoxg0.cloudfront.net/xivelyjs-1.0.4.min.js"></script>
 <script src="//d23cj0cdvyoxg0.cloudfront.net/xivelygmaps-0.1.0.min.js"></script>
 ```
-TODO: add url to xivelygmaps on S3
-
 Get your Google Maps API key and require the Google Maps JS library:
 ```html
 <script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key={GOOGLE_API_KEY}sensor=false"></script>
