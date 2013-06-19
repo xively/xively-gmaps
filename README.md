@@ -1,8 +1,10 @@
 # Xively-Gmaps
 
+### This library is released under Xively Labs.
+
 A Javascript library to track Xively feed location on Google Maps.
 
-See a bare-bones demo of a live map tracking the International Space Station [here](http://xively.github.io/xively-gmaps/).
+See a bare-bones **[DEMO HERE](http://xively.github.io/xively-gmaps/)** of a live map tracking the International Space Station.
 
 ## Setup
 
