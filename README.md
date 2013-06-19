@@ -2,6 +2,8 @@
 
 A Javascript library to track Xively feed location on Google Maps.
 
+See a bare-bones demo of a live map tracking the International Space Station [here](http://xively.github.io/xively-gmaps/).
+
 ## Setup
 
 require jquery and xivleyjs libraries:
