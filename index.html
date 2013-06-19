@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Xively Gmaps Example</title>
+  <meta name="description" content="Xively Gmaps Example">
+  <meta name="author" content="Xively Ltd.">
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.1/jquery.min.js"></script>
+  <script src="http://d23cj0cdvyoxg0.cloudfront.net/xivelyjs-1.0.4.min.js"></script>
+  <script src="http://d23cj0cdvyoxg0.cloudfront.net/xivelygmaps-0.1.1.min.js"></script>
+  <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+</head>
+<body>
+  <h1>A Demo's Worth a Thousand Words</h1>
+
+  <div id="map-canvas" style="width:50%;height:264px;"></div>
+
+  <h2>This live map is tracking the orbit of the International Space Station</h2>
+  <p>Using the <strong>Xively Gmaps Library</strong>, the location of the ISS is piped to Xively, and live read from there.<br><br>You can use this easy library to embed maps like this one.<br><br><a href="https://github.com/xively/xively-gmaps">Grab the Code Here, with this simple demo included!</a></p>
+  <p>See the Xively Feed that this map is  map is following <a href="https://xively.com/feeds/61916">here</a>.</p>
+  
+  <script type="text/javascript">
+    xivelyGmaps.setKey("FI4JxHBTbwJHiEIoVPRMB4vd2Vv0fvuzrKCI4fah2qqW792b");
+    google.maps.event.addDomListener(window, 'load', xivelyGmaps.subscribe("61916"));
+  </script>
+
+</body>
+</html>
